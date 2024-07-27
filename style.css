@@ -77,3 +77,91 @@ html {
 .navbar-1-sign-up-btn:active {
     background-color: rgb(149, 149, 250);
 }
+
+
+/*! NAVBAR-2 */
+.header-2 {
+    width: 100%;
+    box-shadow: 6px 6px 10px 5px rgb(240, 239, 239);
+    border-radius: 10px;
+    position: relative;
+}
+
+.navbar-2 {
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+    margin: 0 150px;
+    align-items: center;
+    padding: 10px;
+    color: #343434;
+}
+
+.navbar-2-brand-name {
+    font-size: 23px;
+    font-weight: 800;
+    cursor: pointer;
+    color: transparent;
+    background-image: linear-gradient(45deg, #7a14c1, #d011aa);
+    background-clip: text;
+    opacity: 0.55;
+    -webkit-background-clip: text;
+    transition: color 0.1s ease;
+    box-shadow: 0 0 0 0 linear-gradient(45deg, #7a14c1, #d011aa);
+}
+
+.navbar-2-sign-up-btn {
+    font-weight: 700;
+    cursor: pointer;
+    color: transparent;
+    background-image: linear-gradient(45deg, #7a14c1, #d011aa);
+    background-clip: text;
+    opacity: 0.55;
+    -webkit-background-clip: text;
+    transition: color 0.1s ease;
+    box-shadow: 0 0 0 0 linear-gradient(45deg, #7a14c1, #d011aa);
+    position: relative;
+    transition: opacity 0.3s ease;
+}
+
+.navbar-2-sign-up-btn::after {
+    content: "";
+    position: absolute;
+    inset: 0px;
+    background: conic-gradient(from 90deg at 20% -25%, #7a14c1, #d011aa);
+    filter: blur(20px);
+    transform: translate3d(-1px, 0px, -1px);
+    border-radius: inherit;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.navbar-2-sign-up-btn:hover::after {
+    opacity: 0.425;
+}
+
+.navbar-2-sign-up-btn:hover {
+    opacity: 0.735;
+}
+
+.navbar-2-sign-up-btn:active {
+    opacity: 1;
+}
+
+.navbar-2-ul {
+    display: flex;
+    list-style-type: none;
+    gap: 50px;
+    cursor: pointer;
+}
+
+.navbar-2-ul li:hover {
+    color: transparent;
+    background-image: linear-gradient(45deg, #7a14c1, #d011aa);
+    background-clip: text;
+    opacity: 0.75;
+    -webkit-background-clip: text;
+    transition: color 0.1s ease;
+    box-shadow: 0 0 0 0 linear-gradient(45deg, #7a14c1, #d011aa);
+}
