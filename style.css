@@ -381,3 +381,91 @@ html {
     margin: 0 10px;
     border-radius: 1.5px;
 }
+
+/*! Navbar-7 */
+
+.navbar-7{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 90px;
+    background: linear-gradient(45deg, #D1A2C2, #7069D2);
+    gap: 100px;
+    height: 80px;
+    
+}
+
+.navbar-7-circles{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: flex-end;
+}
+.navbar-7-circle-1{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #8173D8;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.navbar-7-circle-2{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #8172D9;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.navbar-7-circle-3{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #414CED;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.navbar-7-brand-name{
+    font-size: 20px;
+    font-weight: 500;
+    color: #F7B9B7;
+    border: 1px solid #4E51E2;
+    padding: 9px 200px;
+    border-radius: 20px;
+    text-wrap: nowrap;
+    display: flex;
+    gap: 10px;
+}
+.navbar-7-ul{
+    display: flex;
+    gap: 40px;
+    color: #F7B9B7;
+
+}
+.navbar-7-ul li{
+    list-style: none;
+}   
+
+.navbar-7-sign-up-btn{
+    padding: 10px 20px;
+    background-color: #414CED;
+    color: #ffdfdd;
+    font-weight: 800;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    text-wrap: nowrap;
+}
+
+.navbar-7-sign-up-btn:hover{
+    background-color: #3A3BE2;
+}
+
+.navbar-7-sign-up-btn:active{
+    background-color: #3237D2;
+}
+
