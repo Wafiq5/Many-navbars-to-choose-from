@@ -573,3 +573,68 @@ html {
 .navbar-9-ul li:active {
   background-color: #004da9;
 }
+
+
+/*! Navbar-10 */
+
+.navbar-10 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fafafa;
+  padding: 0 100px;
+  height: 80px;
+  position: relative;
+  overflow: hidden;
+}
+
+.navbar-10-brand-name {
+  font-size: 24px;
+  font-weight: 800;
+  text-align: center;
+  display: flex;
+  color: #fff;
+  align-items: center;
+  justify-content: center;
+  z-index: 5;
+}
+
+.navbar-10-square-1 {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  background-color: #ff6a00;
+  transform: rotateZ(45deg);
+  box-shadow: 5px 5px 20px #a8a8a8;
+  margin-left: -100px;
+}
+
+.navbar-10-right-container {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-10-ul {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  z-index: 2;
+  color: #fff;
+}
+
+.navbar-10-ul li {
+  list-style: none;
+}
+
+.navbar-10-square-2 {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  background-color: #ff6a00;
+  transform: rotateZ(-45deg);
+  box-shadow: 5px 5px 20px #a8a8a8;
+  right: 0;
+  z-index: 0;
+}
