@@ -638,3 +638,37 @@ html {
   right: 0;
   z-index: 0;
 }
+
+/*! Navbar 11 */
+
+.navbar-11 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-11-brand-name {
+  font-weight: 500;
+  font-family: "Brush Script MT", sans-serif;
+  font-size: 70px;
+}
+
+.navbar-11-line {
+  width: 100%;
+  height: 2px;
+  background-color: #007bff;
+  margin: 20px 0;
+}
+
+.navbar-11-ul {
+  display: flex;
+  gap: 200px;
+}
+
+.navbar-11-ul li {
+  list-style: none;
+  text-decoration: none;
+  color: #002751;
+  transition: color 0.3s ease;
+}
