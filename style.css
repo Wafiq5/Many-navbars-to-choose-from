@@ -526,3 +526,50 @@ html {
 .navbar-8-sign-up-btn:active{
     background-color: #92ac0d;
 }
+
+/*! Navbar-9 */
+
+.navbar-9 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 6px 6px 10px 5px rgb(240, 239, 239);
+  gap: 200px;
+  height: 100px;
+}
+
+.navbar-9-brand-name {
+  font-size: 35px;
+  font-weight: 1000;
+  color: #0062cc;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar-9-ul {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+
+.navbar-9-ul li {
+  list-style: none;
+  text-decoration: none;
+  background-color: #0062cc;
+  padding: 20px;
+  color: #fff;
+  border-radius: 40px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 18px;
+}
+
+.navbar-9-ul li:hover {
+  background-color: #0057b9;
+}
+
+.navbar-9-ul li:active {
+  background-color: #004da9;
+}
