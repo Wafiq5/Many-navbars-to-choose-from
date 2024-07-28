@@ -469,3 +469,60 @@ html {
     background-color: #3237D2;
 }
 
+/*! Navbar-8 */
+
+.navbar-8{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #191919;
+    position: relative;
+    padding: 0 90px;
+}
+
+.navbar-8-brand-name{
+    font-size: 20px;
+    height: 110px;
+    width: 25%;
+    margin-left: -90px;
+    background-color: #292929;
+    font-size: 40px;
+    color: #fff;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar-8-ul{
+    display: flex;
+    gap: 30px;
+}
+
+.navbar-8-ul li{
+    list-style: none;
+    color: #fff;
+    font-size: 18px;    
+
+}
+.navbar-8-sign-up-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 30px;
+    background-color: #DBFE01;
+    color: #292929;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.navbar-8-sign-up-btn:hover{
+    background-color: #b8d816;
+}
+
+.navbar-8-sign-up-btn:active{
+    background-color: #92ac0d;
+}
