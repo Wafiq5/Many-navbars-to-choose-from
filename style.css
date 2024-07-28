@@ -282,3 +282,44 @@ html {
 .navbar-4-sign-up-btn:active {
     background-color: rgb(0, 116, 155);
 }
+
+/*! Navbar 5 */
+.navbar-5{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 90px;
+}
+.navbar-5-brand-name{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;    
+}
+.mslogo{
+    width: 110px;
+}
+.logo-divider-line{
+    width: 2px;
+    height: 33px;
+    background-color: #000;
+}
+.xboxlogo{
+    width: 80px;
+}
+.navbar-5-ul{
+    display: flex;
+    gap: 30px;
+}
+.navbar-5-ul li{
+    list-style: none;
+}
+.account{
+    display: flex;
+}
+.account-img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #ccc;
+}
